@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinPet — Find their Petfect match!</title>
+  <meta name="description" content="TinPet is the social app for pet lovers. Swipe, match and meet pets nearby. Find the Petfect match for your furry friend!">
+  <meta property="og:title" content="TinPet — Find their Petfect match!">
+  <meta property="og:description" content="Discover and match with pets nearby. Chat, plan meetups, and find pet services.">
+  <meta property="og:url" content="https://tinpetapp.com">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="images/logo.png" alt="TinPet">
+    <span>Tin<em>Pet</em></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="https://play.google.com/store" class="nav-cta" target="_blank">Download App</a></li>
+  </ul>
+  <div class="nav-hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+  </div>
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <div class="reveal" data-delay="0" style="margin-bottom:1.5rem;">
+        <img src="images/logo-full.png" alt="TinPet — Find their Petfect match!" style="width:220px; height:auto; filter:drop-shadow(0 8px 30px rgba(255,107,44,0.3));">
+      </div>
+      <div class="section-label reveal" data-delay="1">For pet lovers everywhere</div>
+      <h1 class="reveal" data-delay="2">The social app for<br><span class="highlight">your furry friends</span></h1>
+      <p class="reveal" data-delay="2">TinPet connects pet owners nearby. Swipe, match, chat, and plan meetups for your furry friends — plus discover trusted pet services in your city.</p>
+      <div class="hero-buttons reveal" data-delay="3">
+        <a href="https://play.google.com/store" class="btn btn-primary" target="_blank">⬇ Get it on Android</a>
+        <a href="about.html" class="btn btn-outline">Learn more</a>
+      </div>
+      <div class="hero-stats reveal" data-delay="4">
+        <div class="stat-item">
+          <h4 data-count="500" data-suffix="+">0+</h4>
+          <span>Pet profiles</span>
+        </div>
+        <div class="stat-item">
+          <h4 data-count="200" data-suffix="+">0+</h4>
+          <span>Matches made</span>
+        </div>
+        <div class="stat-item">
+          <h4 data-count="50" data-suffix="+">0+</h4>
+          <span>Pet services</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal-right" style="position:relative; display:flex; justify-content:center;">
+      <!-- Real app screenshot -->
+      <img src="images/app-screen.png" alt="TinPet App" style="
+        width:280px; height:auto;
+        filter:drop-shadow(0 30px 60px rgba(0,0,0,0.7)) drop-shadow(0 0 40px rgba(255,107,44,0.2));
+        animation:phoneFloat 6s ease-in-out infinite;
+      ">
+
+      <!-- Animated colorful badges -->
+      <div class="float-badge-new float-badge-new-1">
+        <div class="badge-icon-circle" style="background:linear-gradient(135deg,#FF6B2C,#FF2C8A);">🐾</div>
+        <div class="badge-text"><strong>Any Pet</strong><span>Any Breed</span></div>
+      </div>
+      <div class="float-badge-new float-badge-new-2">
+        <div class="badge-icon-circle" style="background:linear-gradient(135deg,#2E8BFF,#7C3AED);">❤️</div>
+        <div class="badge-text"><strong>New Match!</strong><span>Nearby</span></div>
+      </div>
+      <div class="float-badge-new" style="position:absolute; bottom:5%; right:-20px; animation:floatBadge 4.5s ease-in-out infinite 1s;">
+        <div class="badge-icon-circle" style="background:linear-gradient(135deg,#22c55e,#16a34a);">🎉</div>
+        <div class="badge-text"><strong>It's a Match!</strong><span>Golden Retriever</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FEATURES ─── -->
+<section class="features" style="position:relative; overflow:hidden;">
+  <div style="position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1400&q=60&fit=crop');background-size:cover;background-position:center;opacity:0.06;filter:blur(3px);transform:scale(1.05);"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-label reveal">Why TinPet</div>
+    <h2 class="reveal" data-delay="1">Everything your pet needs<br>to make friends</h2>
+    <div class="features-grid" data-stagger>
+      <div class="feature-card">
+        <div class="feature-icon">🐾</div>
+        <h3>Smart Matching</h3>
+        <p>Swipe through pet profiles and match with compatible furry friends nearby based on breed, size, and personality.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📍</div>
+        <h3>Local Discovery</h3>
+        <p>Browse a live map of pets in your neighborhood. See who's around and find the closest playmate for your companion.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h3>Real-time Chat</h3>
+        <p>Chat directly with other pet owners, share photos, and coordinate playdates with our built-in messaging system.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📅</div>
+        <h3>Meetup Planner</h3>
+        <p>Propose, confirm, and schedule playdates right inside the app. Get reminders and manage all your pet's social calendar.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏥</div>
+        <h3>Pet Services Directory</h3>
+        <p>Find trusted vets, groomers, trainers, and pet stores near you — all in one convenient place inside the app.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌎</div>
+        <h3>Bilingual</h3>
+        <p>TinPet is fully available in English and Spanish, making it the perfect app for pet lovers across Latin America and the US.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── HOW IT WORKS ─── -->
+<section class="how-it-works" style="position:relative; overflow:hidden;">
+  <div style="position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1574158622682-e40e69881006?w=1400&q=60&fit=crop');background-size:cover;background-position:center;opacity:0.06;filter:blur(3px);transform:scale(1.05);"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-label reveal">Simple process</div>
+    <h2 class="reveal" data-delay="1">Up and running in minutes</h2>
+    <div class="steps-grid">
+      <div class="step-item reveal" data-delay="1">
+        <div class="step-number">01</div>
+        <span class="step-emoji">🐶</span>
+        <h3>Create your pet's profile</h3>
+        <p>Add photos, breed, age, and personality details so other owners can learn about your pet.</p>
+      </div>
+      <div class="step-item reveal" data-delay="2">
+        <div class="step-number">02</div>
+        <span class="step-emoji">👆</span>
+        <h3>Discover & swipe</h3>
+        <p>Browse nearby pets using cards or the live map. Swipe right on pets you'd like to meet.</p>
+      </div>
+      <div class="step-item reveal" data-delay="3">
+        <div class="step-number">03</div>
+        <span class="step-emoji">🎉</span>
+        <h3>Match & chat</h3>
+        <p>When both owners swipe right, it's a match! Start chatting instantly with the other owner.</p>
+      </div>
+      <div class="step-item reveal" data-delay="4">
+        <div class="step-number">04</div>
+        <span class="step-emoji">🤝</span>
+        <h3>Plan the meetup</h3>
+        <p>Schedule a playdate directly in the app and let your pets become the best of friends.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SERVICES PREVIEW ─── -->
+<section class="services-preview" style="position:relative; overflow:hidden;">
+  <div style="position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=1400&q=60&fit=crop');background-size:cover;background-position:center;opacity:0.06;filter:blur(3px);transform:scale(1.05);"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-label reveal">Pet Services Directory</div>
+    <h2 class="reveal" data-delay="1">Find trusted local<br>pet professionals</h2>
+    <div class="services-grid reveal" data-delay="2">
+      <a href="services.html" class="service-card">
+        <div class="service-emoji">🏥</div>
+        <div class="service-info">
+          <h3>Veterinary</h3>
+          <p>Clinics & specialists</p>
+        </div>
+      </a>
+      <a href="services.html" class="service-card">
+        <div class="service-emoji">✂️</div>
+        <div class="service-info">
+          <h3>Grooming</h3>
+          <p>Salons & mobile groomers</p>
+        </div>
+      </a>
+      <a href="services.html" class="service-card">
+        <div class="service-emoji">🛒</div>
+        <div class="service-info">
+          <h3>Pet Stores</h3>
+          <p>Supplies & specialty shops</p>
+        </div>
+      </a>
+      <a href="services.html" class="service-card">
+        <div class="service-emoji">🎓</div>
+        <div class="service-info">
+          <h3>Training</h3>
+          <p>Trainers & behaviorists</p>
+        </div>
+      </a>
+      <a href="services.html" class="service-card">
+        <div class="service-emoji">🦴</div>
+        <div class="service-info">
+          <h3>Pet Goods</h3>
+          <p>Accessories & nutrition</p>
+        </div>
+      </a>
+      <a href="services.html" class="service-card">
+        <div class="service-emoji">🏠</div>
+        <div class="service-info">
+          <h3>Adoption</h3>
+          <p>Shelters & rescue centers</p>
+        </div>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:2.5rem;" class="reveal">
+      <a href="services.html" class="btn btn-outline">View all services →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── GALLERY ─── -->
+<section style="padding:5rem 2rem; background:var(--black);">
+  <div class="container">
+    <div class="section-label reveal">Happy matches</div>
+    <h2 class="reveal" data-delay="1">Real pets, real connections</h2>
+    <p class="reveal" data-delay="2" style="color:var(--gray); margin-top:0.8rem; margin-bottom:3rem; max-width:500px;">Every day, TinPet helps pets find their perfect companions. Here are some of the friendships that started with a swipe.</p>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1rem;" class="gallery-grid">
+      <div class="gallery-item reveal" data-delay="1" style="border-radius:20px; overflow:hidden; aspect-ratio:4/3; position:relative; cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80&fit=crop" alt="Dog friends" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;">
+        <div class="gallery-overlay"><span>🐕 Best friends!</span></div>
+      </div>
+      <div class="gallery-item reveal" data-delay="2" style="border-radius:20px; overflow:hidden; aspect-ratio:4/3; position:relative; cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&q=80&fit=crop" alt="Cat pair" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;">
+        <div class="gallery-overlay"><span>🐈 Purrfect pair!</span></div>
+      </div>
+      <div class="gallery-item reveal" data-delay="3" style="border-radius:20px; overflow:hidden; aspect-ratio:4/3; position:relative; cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=600&q=80&fit=crop" alt="Parrot couple" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;">
+        <div class="gallery-overlay"><span>🦜 Feathered friends!</span></div>
+      </div>
+      <div class="gallery-item reveal" data-delay="4" style="border-radius:20px; overflow:hidden; aspect-ratio:4/3; position:relative; cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1601979031925-424e53b6caaa?w=600&q=80&fit=crop" alt="Puppy friends" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;">
+        <div class="gallery-overlay"><span>🐶 New friends!</span></div>
+      </div>
+      <div class="gallery-item reveal" data-delay="5" style="border-radius:20px; overflow:hidden; aspect-ratio:4/3; position:relative; cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1518288774672-b94e808873ff?w=600&q=80&fit=crop" alt="Cats together" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;">
+        <div class="gallery-overlay"><span>🐱 Matched!</span></div>
+      </div>
+      <div class="gallery-item reveal" data-delay="6" style="border-radius:20px; overflow:hidden; aspect-ratio:4/3; position:relative; cursor:pointer;">
+        <img src="https://images.unsplash.com/photo-1560743641-3914f2c45636?w=600&q=80&fit=crop" alt="Dogs playing" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;">
+        <div class="gallery-overlay"><span>🐕 Playdate!</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.gallery-item:hover img { transform: scale(1.06); }
+.gallery-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+  display:flex; align-items:flex-end; padding:1rem;
+  opacity:0; transition:opacity 0.3s;
+}
+.gallery-item:hover .gallery-overlay { opacity:1; }
+.gallery-overlay span {
+  color:white; font-family:'Fredoka',sans-serif;
+  font-size:1rem; font-weight:600;
+  background:rgba(255,107,44,0.85); padding:0.4rem 0.8rem;
+  border-radius:100px;
+}
+@media(max-width:600px){
+  .gallery-grid { grid-template-columns:repeat(2,1fr) !important; }
+}
+</style>
+
+<!-- ─── CTA ─── -->
+<section class="cta-section">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:2rem;">
+      <img src="images/logo-full.png" alt="TinPet" style="width:180px; height:auto; filter:drop-shadow(0 0 40px rgba(255,107,44,0.4)) drop-shadow(0 0 80px rgba(100,150,255,0.2));">
+    </div>
+    <div class="section-label" style="justify-content:center;">Download now</div>
+    <h2 class="reveal">Your pet's social life<br>starts today</h2>
+    <p class="reveal" data-delay="1">TinPet is free to download. Available on Android now — iOS coming soon.</p>
+    <div class="store-badges reveal" data-delay="2">
+      <a href="https://play.google.com/store" class="store-badge" target="_blank">
+        <span class="store-badge-icon">🤖</span>
+        <div class="store-badge-text">
+          <span>Get it on</span>
+          <strong>Google Play</strong>
+        </div>
+      </a>
+      <a href="#" class="store-badge" style="opacity:0.5; cursor:not-allowed;">
+        <span class="store-badge-icon">🍎</span>
+        <div class="store-badge-text">
+          <span>Coming soon</span>
+          <strong>App Store</strong>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── BLOG PREVIEW ─── -->
+<section class="blog-preview" style="position:relative; overflow:hidden;">
+  <div style="position:absolute;inset:0;background-image:url('https://images.unsplash.com/photo-1560743641-3914f2c45636?w=1400&q=60&fit=crop');background-size:cover;background-position:center;opacity:0.06;filter:blur(3px);transform:scale(1.05);"></div>
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="section-label reveal">From the blog</div>
+    <h2 class="reveal" data-delay="1">Pet tips & stories</h2>
+    <div class="blog-grid">
+      <a href="blog.html" class="blog-card reveal" data-delay="1">
+        <div class="blog-card-img" style="padding:0;"><img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=80&fit=crop" style="width:100%;height:100%;object-fit:cover;" alt="Dogs"></div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Socialization</span>
+          <h3>5 tips to help your dog make new friends</h3>
+          <p>Socializing your dog is key to their happiness. Here's how TinPet makes it easier than ever.</p>
+          <div class="blog-meta"><span>June 2026</span><span>4 min read</span></div>
+        </div>
+      </a>
+      <a href="blog.html" class="blog-card reveal" data-delay="2">
+        <div class="blog-card-img" style="padding:0;"><img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&q=80&fit=crop" style="width:100%;height:100%;object-fit:cover;" alt="Cats"></div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Cat Care</span>
+          <h3>Do cats really need social interaction?</h3>
+          <p>The surprising truth about feline socialization and how to introduce your cat to new friends.</p>
+          <div class="blog-meta"><span>June 2026</span><span>3 min read</span></div>
+        </div>
+      </a>
+      <a href="blog.html" class="blog-card reveal" data-delay="3">
+        <div class="blog-card-img" style="padding:0;"><img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=400&q=80&fit=crop" style="width:100%;height:100%;object-fit:cover;" alt="Park"></div>
+        <div class="blog-card-body">
+          <span class="blog-tag">Lifestyle</span>
+          <h3>The best parks for pets in the US</h3>
+          <p>A guide to the top dog-friendly parks across the country where your pet can roam free.</p>
+          <div class="blog-meta"><span>May 2026</span><span>5 min read</span></div>
+        </div>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:2.5rem;" class="reveal">
+      <a href="blog.html" class="btn btn-outline">Read all articles →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo" style="margin-bottom:0.5rem; display:inline-flex;">
+        <span>Tin<em>Pet</em></span>
+      </a>
+      <p>The social app for pet lovers. Connect your furry friends with others nearby and find trusted pet services in your city.</p>
+      <div class="footer-social">
+        <a href="#" class="social-link">📘</a>
+        <a href="#" class="social-link">📸</a>
+        <a href="#" class="social-link">🐦</a>
+        <a href="#" class="social-link">▶️</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>App</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Pet Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Download</h4>
+      <ul>
+        <li><a href="https://play.google.com/store" target="_blank">Google Play</a></li>
+        <li><a href="#">App Store (soon)</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="https://ottobarrios62.github.io/tinpet-privacy/" target="_blank">Privacy Policy</a></li>
+        <li><a href="contact.html">Terms of Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 TinPet. All rights reserved.</span>
+    <a href="mailto:hello@tinpetapp.com">hello@tinpetapp.com</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

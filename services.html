@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Services Directory — TinPet</title>
+  <meta name="description" content="Find trusted veterinarians, groomers, trainers, pet stores and more near you on TinPet.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="TinPet"><span>Tin<em>Pet</em></span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html" class="active">Services</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="https://play.google.com/store" class="nav-cta" target="_blank">Download App</a></li>
+  </ul>
+  <div class="nav-hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<div class="page-header">
+  <div class="section-label" style="justify-content:center;">Pet Services</div>
+  <h1>Find the best care<br>for your pet</h1>
+  <p>Browse trusted veterinarians, groomers, trainers, and more in your city.</p>
+</div>
+
+<section>
+  <div class="container">
+    <div class="services-filter reveal">
+      <button class="filter-btn active" data-filter="all">All Services</button>
+      <button class="filter-btn" data-filter="vet">Veterinary</button>
+      <button class="filter-btn" data-filter="grooming">Grooming</button>
+      <button class="filter-btn" data-filter="store">Pet Stores</button>
+      <button class="filter-btn" data-filter="training">Training</button>
+      <button class="filter-btn" data-filter="goods">Pet Goods</button>
+      <button class="filter-btn" data-filter="adoption">Adoption</button>
+    </div>
+
+    <div class="services-listing">
+      <div class="listing-card reveal" data-category="vet" data-delay="1">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🏥</span>
+          <span class="listing-cat-badge">Veterinary</span>
+        </div>
+        <h3>City Animal Clinic</h3>
+        <p>Full-service veterinary care including check-ups, vaccinations, surgery, and emergency services.</p>
+        <div class="listing-location">📍 Miami, FL</div>
+      </div>
+      <div class="listing-card reveal" data-category="grooming" data-delay="2">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">✂️</span>
+          <span class="listing-cat-badge">Grooming</span>
+        </div>
+        <h3>Paws & Claws Grooming</h3>
+        <p>Professional grooming services for dogs and cats. Baths, haircuts, nail trimming, and more.</p>
+        <div class="listing-location">📍 Miami, FL</div>
+      </div>
+      <div class="listing-card reveal" data-category="store" data-delay="3">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🛒</span>
+          <span class="listing-cat-badge">Pet Store</span>
+        </div>
+        <h3>PetWorld Superstore</h3>
+        <p>Your one-stop shop for pet food, toys, accessories, and health products for all breeds.</p>
+        <div class="listing-location">📍 Los Angeles, CA</div>
+      </div>
+      <div class="listing-card reveal" data-category="training" data-delay="4">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🎓</span>
+          <span class="listing-cat-badge">Training</span>
+        </div>
+        <h3>Alpha Dog Training</h3>
+        <p>Expert obedience training, behavior correction, and puppy school classes for all breeds and ages.</p>
+        <div class="listing-location">📍 New York, NY</div>
+      </div>
+      <div class="listing-card reveal" data-category="vet" data-delay="5">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🏥</span>
+          <span class="listing-cat-badge">Veterinary</span>
+        </div>
+        <h3>Advanced Pet Care</h3>
+        <p>Specialized veterinary services including dentistry, dermatology, orthopedics, and rehabilitation.</p>
+        <div class="listing-location">📍 Houston, TX</div>
+      </div>
+      <div class="listing-card reveal" data-category="adoption" data-delay="6">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🏠</span>
+          <span class="listing-cat-badge">Adoption</span>
+        </div>
+        <h3>Happy Tails Rescue</h3>
+        <p>A no-kill shelter dedicated to finding loving homes for cats and dogs of all ages and sizes.</p>
+        <div class="listing-location">📍 Chicago, IL</div>
+      </div>
+      <div class="listing-card reveal" data-category="goods" data-delay="7">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🦴</span>
+          <span class="listing-cat-badge">Pet Goods</span>
+        </div>
+        <h3>Natural Pet Nutrition</h3>
+        <p>Organic and natural food, treats, and supplements to keep your pet healthy and happy.</p>
+        <div class="listing-location">📍 San Francisco, CA</div>
+      </div>
+      <div class="listing-card reveal" data-category="grooming" data-delay="8">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">✂️</span>
+          <span class="listing-cat-badge">Grooming</span>
+        </div>
+        <h3>Mobile Pet Spa</h3>
+        <p>We come to you! Mobile grooming service bringing the salon experience directly to your doorstep.</p>
+        <div class="listing-location">📍 Phoenix, AZ</div>
+      </div>
+      <div class="listing-card reveal" data-category="training" data-delay="9">
+        <div class="listing-card-top">
+          <span style="font-size:2rem;">🎓</span>
+          <span class="listing-cat-badge">Training</span>
+        </div>
+        <h3>Pawsitive Behavior</h3>
+        <p>Positive reinforcement training using science-based methods. Group classes and private sessions available.</p>
+        <div class="listing-location">📍 Austin, TX</div>
+      </div>
+    </div>
+
+    <div class="business-cta reveal">
+      <div class="section-label" style="justify-content:center;">For businesses</div>
+      <h2>List your pet business on TinPet</h2>
+      <p>Reach thousands of pet owners in your area. Start with 3 months free — then just $9.99/month.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="contact.html" class="btn btn-primary">Get listed free →</a>
+        <a href="contact.html" class="btn btn-outline">Learn about pricing</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo" style="display:inline-flex;"><span>Tin<em>Pet</em></span></a>
+      <p>The social app for pet lovers. Connect your furry friends with others nearby.</p>
+      <div class="footer-social">
+        <a href="#" class="social-link">📘</a><a href="#" class="social-link">📸</a><a href="#" class="social-link">🐦</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>App</h4><ul>
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li><li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Download</h4><ul>
+      <li><a href="https://play.google.com/store" target="_blank">Google Play</a></li>
+      <li><a href="#">App Store (soon)</a></li>
+    </ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul>
+      <li><a href="https://ottobarrios62.github.io/tinpet-privacy/" target="_blank">Privacy Policy</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 TinPet. All rights reserved.</span>
+    <a href="mailto:hello@tinpetapp.com">hello@tinpetapp.com</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
